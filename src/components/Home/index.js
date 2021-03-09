@@ -55,7 +55,7 @@ const Home = () => {
                     <Image
                       src="/assets/images/easy_integration.png"
                       alt="Easy integration"
-                      width={200}
+                      width={202}
                       height={170}
                     />
                   </div>
@@ -88,8 +88,8 @@ const Home = () => {
                     <Image
                       src="/assets/images/continuous_monitoring.png"
                       alt="Metric Builder"
-                      width={200}
-                      height={170}
+                      width={180}
+                      height={150}
                     />
                   </div>
                   <div className={styles["card-title"]}>Continuous Monitoring</div>
@@ -104,8 +104,8 @@ const Home = () => {
                     <Image
                       src="/assets/images/root_cause_analysis.png"
                       alt="Metric Builder"
-                      width={200}
-                      height={170}
+                      width={158}
+                      height={150}
                     />
                   </div>
                   <div className={styles["card-title"]}>Root Cause Analysis</div>
@@ -120,8 +120,8 @@ const Home = () => {
                     <Image
                       src="/assets/images/smart_insights.png"
                       alt="Metric Builder"
-                      width={200}
-                      height={170}
+                      width={208}
+                      height={129}
                     />
                   </div>
                   <div className={styles["card-title"]}>24/7 Smart Insights</div>
@@ -136,8 +136,8 @@ const Home = () => {
                     <Image
                       src="/assets/images/instant_notifications.png"
                       alt="Metric Builder"
-                      width={200}
-                      height={170}
+                      width={207}
+                      height={159}
                     />
                   </div>
                   <div className={styles["card-title"]}>Instant Notifications</div>
