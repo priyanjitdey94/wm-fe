@@ -1,0 +1,48 @@
+.container {
+  min-height: 100vh;
+}
+
+.container main {
+  overflow-y: scroll;
+}
+
+.header {
+  padding: 20px 12px;
+}
+
+
+.hero-container {
+  background-image: url(/assets/images/home_background.png);
+  min-height: 100vh;
+  color: #11253E;
+}
+.hero-title {
+  margin: 75px auto 30px;
+  max-width: 980px;
+  text-align: center;
+  font-size: 82px;
+  font-weight: bold;
+}
+.hero-subtitle {
+  font-size: 30px;
+  max-width: 800px;
+  text-align: center;
+  margin: auto;
+}
+.hero-subtitle-highlight {
+  color: #F41D00;
+  font-weight: 600;
+}
+.hero-btn-container {
+  text-align: center;
+  margin-top: 40px;
+}
+.hero-btn {
+  height: 48px;
+  width: 363px;
+  background-color: #11253E;
+  color: white;
+  font-size: 22px;
+  border-color: #11253E;
+  border-radius: 4px;
+}
