@@ -10,9 +10,10 @@
   padding: 20px 12px;
 }
 
-
+/* Hero Section */
 .hero-container {
   background-image: url(/assets/images/home_background.png);
+  background-size: cover;
   min-height: 100vh;
   color: #11253E;
 }
@@ -45,4 +46,52 @@
   font-size: 22px;
   border-color: #11253E;
   border-radius: 4px;
+}
+
+/* Cards Section */
+.cards-section {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  padding: 0 20px;
+}
+.card {
+  background-color: rgba(220, 235, 244, 0.6);
+  padding: 32px;
+  box-shadow: 0px 0px 25px 5px rgba(85, 85, 85, 0.05);
+  border-radius: 26px;
+}
+.card-img {
+  text-align: center;
+  margin-bottom: 40px;
+}
+.card-title {
+  font-size: 22px;
+  font-weight: 600;
+  color: black;
+  margin-bottom: 22px;
+}
+.card-description {
+  font-size: 20px;
+}
+
+/* Footer */
+.footer {
+  background: linear-gradient(87.23deg, #FAF2EF 1.05%, #CFE8F6 98.21%);
+  transform: rotate(-180deg);
+}
+.footer-content {
+  padding: 50px 0;
+  margin: 0 20px;
+  border-bottom: 1px solid rgba(25, 37, 145, 0.2);
+}
+.footer-copyright {
+  padding: 12px 0;
+  margin: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.social-media-icon {
+  font-size: 32px;
 }
